@@ -1,4 +1,4 @@
-import { Route, Routes, HashRouter } from 'react-router-dom';
+import { Route, Routes} from 'react-router-dom';
 import Hamza from './components/Hamza'
 import About from './components/About'
 import Contact from './components/Contact'
@@ -10,7 +10,7 @@ import './App.scss'
 function App() {
   return (
     <>
-      <HashRouter>
+        
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Hamza />} />
@@ -20,7 +20,6 @@ function App() {
             <Route path="/dashboard" element={<Dashboard />} />
           </Route>
         </Routes>
-      </HashRouter>
     </>
   )
 }

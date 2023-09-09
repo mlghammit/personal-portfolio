@@ -7,7 +7,7 @@ import websitePhoto from '/Users/hamzakhamissa/react-website/src/assets/images/r
 import councilWeb from '/Users/hamzakhamissa/react-website/src/assets/images/shelley-website.png'
 import sortingAlgo from '/Users/hamzakhamissa/react-website/src/assets/images/Pathing-Algorithm.png'
 import pcStore from '/Users/hamzakhamissa/react-website/src/assets/images/text-base-pc-store.png'
-import { Contact, Gallary} from '/Users/hamzakhamissa/react-website/src/components/Project/ImageGallery.js';
+import {Gallary} from '/Users/hamzakhamissa/react-website/src/components/Project/ImageGallery.js';
 
 const Project = () => { 
     const [letterClass, setLetterClass] = useState('text-animate');
