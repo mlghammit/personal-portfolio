@@ -5,7 +5,7 @@ import Logo from './Logo';
 import './index.scss';
 import Animation from '/Users/hamzakhamissa/react-website/src/components/Hamza/Animation/animation.js';
 import { About } from './About.home.js';
-import { Cube } from '/Users/hamzakhamissa/react-website/src/components/Hamza/Cube.js';
+// import { Cube } from '/Users/hamzakhamissa/react-website/src/components/Hamza/Cube.js';
 import { Project } from './Portfolio.home.js';
 import { Contact } from '/Users/hamzakhamissa/react-website/src/components/Hamza/Contact.home.js';
 import { Resume } from '/Users/hamzakhamissa/react-website/src/components/Hamza/resume.js';
@@ -51,7 +51,7 @@ const Hamza = () => {
           <section id="home-section"> {/* Home Section */}
             <h3>
               <About />
-              <Cube />
+              {/* <Cube /> */}
             </h3>
 
             <h1>
